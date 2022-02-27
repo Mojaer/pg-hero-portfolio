@@ -1,0 +1,26 @@
+.Head-container{
+    font-family: 'Heebo', sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+img{
+    width: auto;
+    height:27rem;
+}
+.Head-item1{
+    width: 40%;
+    margin-left: 10%;
+    height: 27rem;
+}
+.Head-item1 p{
+    font-size: medium;
+}
+
+.Head-item2{
+    width: 20vw;
+    margin-right: 20%;
+}
+
