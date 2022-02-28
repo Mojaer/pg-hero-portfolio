@@ -1,36 +1,37 @@
 body{
-    
+    font-family: 'Heebo', sans-serif;
 }
+
+/* Head container */
 
 .Head-container{
-    background-image: url(images/background.webp);
+    background-image: url(images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Heebo', sans-serif;
     font-size: x-large;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 40%;
+    height: 500px;
 }
 
-img{
-    width: 35rem;
-    height:auto;
-}
+
 .Head-item1{
-    grid-column-start: 1;
-    grid-column-end: 6;
     margin-left: 10%;
     padding: 5% 0%;
     margin-right: 20%;
 }
 
 .Head-item2{
-    grid-column-start: 6;
-    grid-column-end: 12;
     margin-right: 90px;
 }
 
-.Head-item1 p{
+#first-img{
+    width: 50rem;
+    height:auto;
+    margin-left: 5%;
+}
+
+#paragraph{
     font-size: medium;
 }
 
@@ -41,6 +42,63 @@ img{
     font-weight: 700;
     padding: 6px 6px;
     border-radius: 5px;
+}
+
+/* second container */
+
+.second-container{
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 500px;
+}
+
+.second-item1{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    margin-left: 10%;
+    padding: 5% 0%;
+    margin-right: 20%;
+    margin-top: 40px;
+
+}
+.second-item2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    margin-right: 90px;
+}
+
+#second-img{
+    width: 35rem;
+    height:auto;
+}
+
+/* End container */
+
+.end-container{
+    background-image: url(images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+
+}
+
+.boxes{
+    padding: 4%;
+    margin:4% 0px 4% 0px;
+    box-shadow: 8px 8px 40px gray;
+    border-radius: 5px;
+}
+.End-item1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,rgb(202, 69, 69));
+    border-image-slice: 1;
 }
 
 
